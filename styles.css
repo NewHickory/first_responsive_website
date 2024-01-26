@@ -3,55 +3,66 @@ body {
 }
 
 section.top {
-  background-color: aqua;
+  background-color: rgb(12, 212, 212);
   border: 1px solid black;
   font-style: bold;
-  font-size: xx-large;
+  font-size:xx-large;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Noto Sans', sans-serif;
-  margin: 5px 5px 0px 5px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
   height: 50%;
 }
 
 section.bottom {
+  background-color: rgb(30, 29, 29);
   display: flex;
   justify-content: space-between;
   border: 1px solid black;
-  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
   height: 50%;
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .blue {
-  height: 20%;
+  height: 10%;
   width: 80%;
   background-color: blue;
   border: 1px solid black;
 }
 
 .orange {
-  height: 20%;
+  height: 10%;
   width: 80%;
   background-color: orange;
   border: 1px solid black;
 }
 
 .green {
-  height: 20%;
+  height: 10%;
   width: 80%;
-  background-color: aqua;
+  background-color: rgb(12, 212, 212);
   border: 1px solid black;
 }
 
 h1 {
   text-align: center;
   border: 1px solid black;
+  color: white;
 }
 
 p {
   text-align: center;
-
+  color: white;
+  font-size: small;
   border: 1px solid black;
 }
