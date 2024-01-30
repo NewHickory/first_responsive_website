@@ -7,7 +7,6 @@
 
   section.top {
     background-color: rgb(12, 212, 212);
-    border: 1px solid black;
     font-weight: bold;
     font-size:xx-large;
     color: white;
@@ -28,7 +27,6 @@
     background-color: rgb(30, 29, 29);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid black;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     height: 100%;
@@ -45,26 +43,22 @@
     height: 10%;
     width: 80%;
     background-color: rgb(89, 150, 208);
-    border: 1px solid black;
   }
 
   .orange {
     height: 10%;
     width: 80%;
     background-color: orange;
-    border: 1px solid black;
   }
 
   .green {
     height: 10%;
     width: 80%;
     background-color: rgb(12, 212, 212);
-    border: 1px solid black;
   }
 
   h1 {
     text-align: center;
-    border: 1px solid black;
     color: white;
   }
 
@@ -73,7 +67,6 @@
     color: white;
     font-size: small;
     margin: 5px;
-    border: 1px solid black;
   }
 
 }
